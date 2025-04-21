@@ -20,19 +20,19 @@ https://nodejs.org/en/download
 cd backend
 npm i
 
-**** For MongoDB --------------------
---- download MongoDB from its official website for linux 
-https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/#std-label-install-mdb-community-ubuntu
-
---- check mongodb by 
-mongosh 
-
 ---- IMPORT THE SAMPLE DATA FROM JSON FILE
 ---copy data from .env.sample to .env file
 cp .env.sample .env
 
 --- to run backend server 
 npm start 
+
+**** For MongoDB --------------------
+--- download MongoDB from its official website for linux 
+https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/#std-label-install-mdb-community-ubuntu
+
+--- check mongodb by 
+mongosh 
 
 **** for frontend -------------------------
 --- to run npm i for install node package manager 
